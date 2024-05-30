@@ -17,3 +17,5 @@ used in the following article:
 
 https://doi.org/10.1101/2023.01.24.525420
 
+Joint work with Takafumi Ichikawa (Kyoto Univ.) & Yusuke Imoto (Kyoto Univ.)
+

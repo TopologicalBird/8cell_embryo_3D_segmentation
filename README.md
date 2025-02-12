@@ -34,3 +34,12 @@ We choose relevant points in the diagram and retrieve the birth positions of the
 ### Finalizing segmentation
 We use watershed method with the birth positions above as markers to finalize the segmentation.
 
+## Related Paper
+For more detailed explanations, see the paper below.
+
+PAPER LINK HERE!
+
+##Persistent homology calculation
+We use HomCloud for the persistent homology calculation. You can install it from the link below.
+
+https://homcloud.dev/index.en.html

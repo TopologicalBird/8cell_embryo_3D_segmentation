@@ -1,7 +1,6 @@
-# 8cell_embryo_3D_segmentation
-3D embryo membrane segmentation with PH
-
-This notebook shows a method to segment embryo membrane images using persistent homology (PH).
+# PomSeg: A Persistent Homology based tool for the segmentation of embryo membrane images
+## Description
+This is a 3D embryo membrane segmentation tool with persistent homology.
 
 The 2D PH-based mask construction part is related to the following code, but this one is simpler.
 
@@ -18,4 +17,6 @@ used in the following article:
 https://doi.org/10.1101/2023.01.24.525420
 
 Joint work with Takafumi Ichikawa (Kyoto Univ.) & Yusuke Imoto (Kyoto Univ.)
+
+
 

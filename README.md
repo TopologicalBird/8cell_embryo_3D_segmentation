@@ -18,5 +18,19 @@ https://doi.org/10.1101/2023.01.24.525420
 
 Joint work with Takafumi Ichikawa (Kyoto Univ.) & Yusuke Imoto (Kyoto Univ.)
 
+## Method
+### Preprocessing
+First, we preprocess the image slice by slice using Ridge filter. This allows us to enhance the membrane parts.
+### 2D persistent homology
+We apply sublevel filtration persistent homology to the 2D slices.
 
+We construct binary mask images for the cell region using the inverse analysis.
+### 3D binary image construction
+By piling up the 2D binary masks, we make a 3D binary image with cell parts being white.
+### 3D persistent homology
+We distance transform the 3D binary image and apply sublevel filtration persistent homology.
+
+We choose relevant points in the diagram and retrieve the birth positions of them.
+### Finalizing segmentation
+We use watershed method with the birth positions above as markers to finalize the segmentation.
 

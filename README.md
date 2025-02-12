@@ -39,7 +39,7 @@ For more detailed explanations, see the paper below.
 
 PAPER LINK HERE!
 
-##Persistent homology calculation
+## Persistent homology calculation
 We use HomCloud for the persistent homology calculation. You can install it from the link below.
 
 https://homcloud.dev/index.en.html
